@@ -3,7 +3,7 @@ import imutils
 import cv2
 from keras.models import load_model
 import numpy as np
-from main1 import *
+from age_gender import *
 
 # parameters for loading data and images
 detection_model_path = 'haarcascade_files/haarcascade_frontalface_default.xml'

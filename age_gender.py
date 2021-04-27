@@ -5,6 +5,7 @@ import cv2 as cv
 import numpy as np
 from age_gender_ssrnet.SSRNET_model import SSR_net_general, SSR_net
 from time import sleep
+import tensorflow
 
 # Desired width and height to process video.
 # Typically it should be smaller than original video frame
